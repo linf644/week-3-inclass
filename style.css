@@ -2,7 +2,46 @@
     font-family: "PublicSans Bold";
     src: url("./assets/PublicSans-Bold.woff2") format("woff2");
 }
-
+@font-face{
+    font-family: "PublicSans Regular";
+    src: url("./assets/PublicSans-Regular.woff2") format("woff2");
+}
+@font-face{
+    font-family: "PublicSans Thin";
+    src: url("./assets/PublicSans-Thin.woff2") format("woff2");
+}
 h1 {
     font-family: "PublicSans Bold";
+    text-align: center;
+    font-size: 120px;
+    transform: rotateX(30deg) rotateY(-40deg) ;
+}
+
+h2 {
+    font-family: "PublicSan Thin";
+    text-align: right;
+}
+.paragraph {
+    font-family: "PublicSans Regular";
+    font-size: 60px;
+    transform: rotateX(30deg) rotateY(40deg);
+}
+.decoration {
+    color: lightsteelblue;
+    border-bottom: 2px solid lightsteelblue;
+    font-size: 100px;
+}
+.invisible:hover {
+    opacity: 0;
+}
+.invisible:hover {
+    opacity: 0;
+}
+.bgcolor:hover{
+    background-color: orange;
+    color: white;
+    font-size: 80px;
+}
+.color {
+    background-color: lightyellow;
 }
