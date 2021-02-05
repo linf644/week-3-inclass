@@ -1,0 +1,8 @@
+@font-face{
+    font-family: "PublicSans Bold";
+    src: url("./assets/PublicSans-Bold.woff2") format("woff2");
+}
+
+h1 {
+    font-family: "PublicSans Bold";
+}
